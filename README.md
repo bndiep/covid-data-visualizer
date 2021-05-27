@@ -1,3 +1,24 @@
+# COVID Data Visualization App
+ 
+ ## Why?
+ For this app, I wanted to challenge myself by learning to use a library to build different graphs. I unfortunately was sick with COVID February of 2021 and wanted to build a project surrouding COVID data. For this project, I will be using Nivo, which is based on d3 and React.js libraries.
+
+## About
+An app that uses an API to get COVID data. Roughly calculates how many people have been vaccinated and how many more people need to be vaccinated to reach herd immunity. Currently the CDC is trying to determine 'how many people' need to vaccinated before we are all protected, so the percentage required to reach herd immunity is just a rough estimation based on previous articles.
+
+## Resources
+- [CDC Vaccine](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/keythingstoknow.html)
+- [Media Group COVID API](https://github.com/M-Media-Group/Covid-19-API)
+- [Nivo](https://github.com/plouc/nivo)
+
+## Endpoints
+- GET /vaccines?country=US
+- https://covid-api.mmediagroup.fr/v1/vaccines?country=US
+- We want: administered, people_vaccinated, people_partially_vaccinated, population, updated
+- GET /vaccines?country=US
+- https://covid-api.mmediagroup.fr/v1/cases?country=US
+- We want: deaths
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
